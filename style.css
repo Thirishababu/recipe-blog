@@ -1,0 +1,32 @@
+body {
+    background-image: url('topimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6); 
+}
+.content {
+    flex: 2;
+    padding: 20px;
+}
+.side-image img {
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+h1, h2 {
+    color: #ffdd99;
+}
+ul, ol {
+    margin-left: 20px;
+}
